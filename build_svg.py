@@ -1,21 +1,9 @@
-"""Generate dark_mode.svg and light_mode.svg for the profile README.
 
-Layout (same idea as Andrew6rant's profile): ASCII art on the left,
-neofetch-style info with dotted leaders on the right.
-
-Edit the CONFIG block below, then run:  python build_svg.py
-today.py imports build() from here and fills in live GitHub stats.
-"""
 from xml.sax.saxutils import escape
 
-# ----------------------------------------------------------------------------
-# CONFIG - edit these. Keep values ASCII (monospace alignment breaks with
-# double-width characters such as Korean).
-# ----------------------------------------------------------------------------
 USERNAME = "wawaHyun"          # shown as "<username>@github"
 # BIRTHDAY = (1991, 4, 18)             # (year, month, day) -> used for "Uptime"
 
-# (label, value) rows. Edit freely.
 ABOUT = [
     ("OS", "Windows, macOS, Linux"),
     # ("Uptime", None),  # filled automatically from BIRTHDAY
