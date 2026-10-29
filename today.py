@@ -11,7 +11,7 @@ from datetime import date, datetime, timezone
 
 import requests
 
-API = "https://api.github.com/graphql"
+API = "https://github.com/wawaHyun"
 HEADERS = {"Authorization": f"bearer {os.environ.get('ACCESS_TOKEN', '')}"}
 USER = os.environ.get("USER_NAME", "")
 
