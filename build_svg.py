@@ -12,29 +12,29 @@ from xml.sax.saxutils import escape
 # CONFIG - edit these. Keep values ASCII (monospace alignment breaks with
 # double-width characters such as Korean).
 # ----------------------------------------------------------------------------
-USERNAME = "your-username"          # shown as "<username>@github"
-BIRTHDAY = (2000, 1, 1)             # (year, month, day) -> used for "Uptime"
+USERNAME = "wawaHyun"          # shown as "<username>@github"
+# BIRTHDAY = (1991, 4, 18)             # (year, month, day) -> used for "Uptime"
 
 # (label, value) rows. Edit freely.
 ABOUT = [
     ("OS", "Windows, macOS, Linux"),
-    ("Uptime", None),  # filled automatically from BIRTHDAY
-    ("Host", "Your School / Company"),
+    # ("Uptime", None),  # filled automatically from BIRTHDAY
+    ("Host", "Day job ≠ dev"),
     ("IDE", "VS Code, IntelliJ"),
 ]
 LANGUAGES = [
-    ("Code", "Python, JS, Java"),
+    ("Code", "Java, Spring, React, Python, JS"),
     ("Markup", "HTML, CSS, Markdown"),
-    ("Human", "Korean, English"),
+    ("Human", "Korean, English, Japanese"),
 ]
 HOBBIES = [
     ("Soft", "Side projects"),
-    ("Hard", "Mech keyboards"),
+    ("Hard", "all things handmade"),
 ]
 CONTACT = [
-    ("Email", "you@example.com"),
+   ("Twitter", "@yomankum"),
+    ("Fastest", "Twitter DM"),
     ("GitHub", USERNAME),
-    ("LinkedIn", "your-linkedin-id"),
 ]
 
 ASCII_FILE = "ascii.txt"
@@ -56,26 +56,26 @@ THEMES = {
 }
 
 
-def uptime(today):
-    """Years / months / days since BIRTHDAY, e.g. '26 years, 9 months, 3 days'."""
-    by, bm, bd = BIRTHDAY
-    y, m, d = today.year - by, today.month - bm, today.day - bd
-    if d < 0:
-        m -= 1
-        prev_month = today.month - 1 or 12
-        prev_year = today.year if today.month > 1 else today.year - 1
-        days_in_prev = (
-            31 if prev_month in (1, 3, 5, 7, 8, 10, 12)
-            else 30 if prev_month != 2
-            else 29 if (prev_year % 4 == 0 and (prev_year % 100 != 0 or prev_year % 400 == 0))
-            else 28
-        )
-        d += days_in_prev
-    if m < 0:
-        y -= 1
-        m += 12
-    plural = lambda n, w: f"{n} {w}{'' if n == 1 else 's'}"
-    return f"{plural(y, 'year')}, {plural(m, 'month')}, {plural(d, 'day')}"
+# def uptime(today):
+#     """Years / months / days since BIRTHDAY, e.g. '26 years, 9 months, 3 days'."""
+#     by, bm, bd = BIRTHDAY
+#     y, m, d = today.year - by, today.month - bm, today.day - bd
+#     if d < 0:
+#         m -= 1
+#         prev_month = today.month - 1 or 12
+#         prev_year = today.year if today.month > 1 else today.year - 1
+#         days_in_prev = (
+#             31 if prev_month in (1, 3, 5, 7, 8, 10, 12)
+#             else 30 if prev_month != 2
+#             else 29 if (prev_year % 4 == 0 and (prev_year % 100 != 0 or prev_year % 400 == 0))
+#             else 28
+#         )
+#         d += days_in_prev
+#     if m < 0:
+#         y -= 1
+#         m += 12
+#     plural = lambda n, w: f"{n} {w}{'' if n == 1 else 's'}"
+#     return f"{plural(y, 'year')}, {plural(m, 'month')}, {plural(d, 'day')}"
 
 
 def _row(label, value, vid=None):
