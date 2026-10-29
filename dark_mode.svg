@@ -60,21 +60,21 @@ text, tspan {white-space: pre;}
 <text x="555" y="30" fill="#c9d1d9" xml:space="preserve">
 <tspan x="555" y="30"><tspan class="key">your-username</tspan>@<tspan class="key">github</tspan> <tspan class="cc">-----------------------</tspan></tspan>
 <tspan x="555" y="50"><tspan class="key">OS</tspan>: <tspan class="cc">..................</tspan> <tspan class="value">Windows, macOS, Linux</tspan></tspan>
-<tspan x="555" y="70"><tspan class="key">Uptime</tspan>: <tspan class="cc">........</tspan> <tspan class="value" id="age_data">26 years, 9 months, 28 days</tspan></tspan>
-<tspan x="555" y="90"><tspan class="key">Host</tspan>: <tspan class="cc">................</tspan> <tspan class="value">Your School / Company</tspan></tspan>
-<tspan x="555" y="110"><tspan class="key">IDE</tspan>: <tspan class="cc">.....................</tspan> <tspan class="value">VS Code, IntelliJ</tspan></tspan>
+<tspan x="555" y="70"><tspan class="key"></tspan>
+<tspan x="555" y="90"><tspan class="key">Host</tspan>: <tspan class="cc">................</tspan> <tspan class="value">Day job ≠ dev</tspan></tspan>
+<tspan x="555" y="110"><tspan class="key">IDE</tspan>: <tspan class="cc">.....................</tspan> <tspan class="value">VS Code</tspan></tspan>
 <tspan x="555" y="130"></tspan>
-<tspan x="555" y="150"><tspan class="key">Lang.Code</tspan>: <tspan class="cc">................</tspan> <tspan class="value">Python, JS, Java</tspan></tspan>
+<tspan x="555" y="150"><tspan class="key">Lang.Code</tspan>: <tspan class="cc">................</tspan> <tspan class="value">Java, Spring, React, Python, JS</tspan></tspan>
 <tspan x="555" y="170"><tspan class="key">Lang.Markup</tspan>: <tspan class="cc">...........</tspan> <tspan class="value">HTML, CSS, Markdown</tspan></tspan>
-<tspan x="555" y="190"><tspan class="key">Lang.Human</tspan>: <tspan class="cc">................</tspan> <tspan class="value">Korean, English</tspan></tspan>
+<tspan x="555" y="190"><tspan class="key">Lang.Human</tspan>: <tspan class="cc">................</tspan> <tspan class="value">Korean, English, Japanese</tspan></tspan>
 <tspan x="555" y="210"></tspan>
 <tspan x="555" y="230"><tspan class="key">Hobby.Soft</tspan>: <tspan class="cc">..................</tspan> <tspan class="value">Side projects</tspan></tspan>
-<tspan x="555" y="250"><tspan class="key">Hobby.Hard</tspan>: <tspan class="cc">.................</tspan> <tspan class="value">Mech keyboards</tspan></tspan>
+<tspan x="555" y="250"><tspan class="key">Hobby.Hard</tspan>: <tspan class="cc">.................</tspan> <tspan class="value">all things handmade</tspan></tspan>
 <tspan x="555" y="270"></tspan>
 <tspan x="555" y="290"><tspan class="key">Contact</tspan> <tspan class="cc">------------------------------------</tspan></tspan>
-<tspan x="555" y="310"><tspan class="key">Email</tspan>: <tspan class="cc">.....................</tspan> <tspan class="value">you@example.com</tspan></tspan>
+<tspan x="555" y="310"><tspan class="key">Twitter</tspan>: <tspan class="cc">.....................</tspan> <tspan class="value">@yomankum</tspan></tspan>
+<tspan x="555" y="350"><tspan class="key">Fastest</tspan>: <tspan class="cc">.................</tspan> <tspan class="value">Twitter DM</tspan></tspan>
 <tspan x="555" y="330"><tspan class="key">GitHub</tspan>: <tspan class="cc">......................</tspan> <tspan class="value">your-username</tspan></tspan>
-<tspan x="555" y="350"><tspan class="key">LinkedIn</tspan>: <tspan class="cc">.................</tspan> <tspan class="value">your-linkedin-id</tspan></tspan>
 <tspan x="555" y="370"></tspan>
 <tspan x="555" y="390"><tspan class="key">GitHub Stats</tspan> <tspan class="cc">-------------------------------</tspan></tspan>
 <tspan x="555" y="410"><tspan class="key">Repos</tspan>: <tspan class="cc">...................................</tspan> <tspan class="value" id="repo_data">0</tspan></tspan>
